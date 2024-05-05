@@ -11,7 +11,7 @@ class VillageForeCastActivity : AppCompatActivity() {
     private val viewModel: VillageForecastViewModel by viewModels { WeatherViewModelFactory }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_village_fore_cast)
+        setContentView(R.layout.activity_village_forecast)
         viewModel
     }
 }

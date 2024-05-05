@@ -7,6 +7,7 @@ import retrofit2.http.QueryMap
 
 interface VillageForecastService {
     @GET("getVilageFcst")
-    fun getVillageForecast(@QueryMap params: Map<String, String>)
-    : Call<VillageForecastResponse>
+    fun getVillageForecast(
+        @QueryMap params: Map<String, String>
+    ): Call<VillageForecastResponse>
 }

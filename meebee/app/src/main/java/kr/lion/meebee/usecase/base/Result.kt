@@ -1,4 +1,4 @@
-package co.kr.lion.meebee.usecase.base
+package kr.lion.meebee.usecase.base
 
 sealed class Result<out T> {
     data class Success<T>(val value: T) : Result<T>()
