@@ -3,8 +3,8 @@ package kr.lion.meebee.ui.village_forecast.vm
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import co.kr.lion.meebee.usecase.GetVillageForecastUseCase
-import co.kr.lion.meebee.usecase.base.Result
+import kr.lion.meebee.usecase.GetVillageForecastUseCase
+import kr.lion.meebee.usecase.base.Result
 import kotlinx.coroutines.launch
 import kr.lion.meebee.dto.request.VillageForecastRequest
 import kr.lion.meebee.dto.request.toMap
@@ -22,7 +22,7 @@ class VillageForecastViewModel(
                         1,
                         1000,
                         "JSON",
-                        "20240503",
+                        "20240504",
                         "0500",
                         "55",
                         "127").toMap()))
