@@ -6,7 +6,7 @@ import kr.lion.meebee.usecase.GetVillageForecastUseCase
 import kr.lion.meebee.repository.village_forecast.VillageForecastRepository
 import kr.lion.meebee.ui.village_forecast.vm.VillageForecastViewModel
 
-val WeatherViewModelFactory = object : ViewModelProvider.Factory {
+val SharedViewModelFactory = object : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T =
 
         with(modelClass){
