@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780527545892",
+    "project_id": "meebee-64864",
+    "storage_bucket": "meebee-64864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780527545892:android:302508e80178c07e7cb2b1",
+        "android_client_info": {
+          "package_name": "kr.lion.meebee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPSpo34sz1UYS5OmG-psXOW5vlFEH_w5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
