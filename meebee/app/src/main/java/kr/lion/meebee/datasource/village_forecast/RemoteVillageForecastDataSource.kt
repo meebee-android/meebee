@@ -9,9 +9,8 @@ class RemoteVillageForecastDataSource(
 ): VillageForecastDataSource {
 
     override suspend fun getVillageForecast(request: Map<String, String>): VillageForecastResponse {
-        return villageForecastService
-            .getVillageForecast(request)
-            .await()
+        return villageForecastService.getVillageForecast(request)
+
     }
 
     override suspend fun setVillageForecast() {}
